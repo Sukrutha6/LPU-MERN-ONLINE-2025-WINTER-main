@@ -1,0 +1,26 @@
+.task-list-main {
+    padding: 1rem 1.5rem;
+    background-color: yellow;
+}
+
+.task-list-title {
+    margin: 1rem;
+    text-align: center;
+    color: darkblue;
+}
+
+.task-list-task-container {
+    margin: 1rem;
+    border: 2px solid grey;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.task-card {
+    background-color: darkkhaki;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}

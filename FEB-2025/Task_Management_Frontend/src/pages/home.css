@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  gap: 30px;
+  width: 100vw;
+  padding: 2px;
+  color: white;
+}
+.sidebar {
+  margin-left: 10px;
+  height: 98vh;
+  width: 20%;
+  border: 2px solid rgb(118, 116, 116);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  padding-left: 10px; 
+ 
+}
+.workspace {
+  height: 98vh;
+  width: 75%;
+  border: 2px solid rgb(118, 116, 116);
+  border-radius: 20px;
+  padding: 4px;
+}

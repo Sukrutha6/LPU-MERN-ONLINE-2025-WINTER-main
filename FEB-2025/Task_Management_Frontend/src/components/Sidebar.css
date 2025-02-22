@@ -1,0 +1,64 @@
+.main {
+  margin-top: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.user {
+  margin: 0;
+  padding: 4px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-align: left;
+ 
+  
+}
+.email {
+    margin-top: auto;
+    padding: 4px;
+    color: rgb(152, 150, 150);
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 60%;
+}
+.taskStatus {
+    margin: 0;
+    padding: 4px;
+    text-align: left;
+    
+}
+.taskStatus:hover{
+  background-color: rgb(86, 85, 85);
+  cursor: pointer;
+  border-radius: 10px;
+  width: 63%;
+  transition: all 0.3s ease-in-out;
+  
+
+}
+.btnn {
+  margin-top: 90%;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 40px;
+  width: 90%;
+  border: rgb(168, 165, 165);
+  background-color: rgb(102, 100, 100);
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer; 
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.item {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px; 
+  color: white;
+  text-decoration: none;
+}
+
+
